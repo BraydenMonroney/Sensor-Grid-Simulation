@@ -1,2 +1,2 @@
 # Sensor-Grid-Simulation
-This is a sensor grid simulation that represents a humidity sensor. The grid shows the movement of water according to the sensor based on certain factors.
+This simulation has 9 sensors set up in a grid. All sensors must be activated for the simulation to start, and they must be run seperately for now. When running the sensors, for the input you can input a to simulate a sensor being activated. You can activate multpiple sensors in the simulation, and run the grid simulation. The first grid shows the simulate water going from sensor to sensor linearly by calculating velocity with respect to distance and time. The second grid finds the most optimized path of the water travel by using the cubic spline method.
